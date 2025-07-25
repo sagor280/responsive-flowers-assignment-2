@@ -305,6 +305,9 @@ header{
     text-align: justify;
     text-decoration: none;
 }
+.footer-links a:hover{
+  color: #E95A08;
+}
 .logo{
   margin-left: 20px;
 }
