@@ -109,5 +109,36 @@ header{
   padding: 12px 87px;
   color: white;
   font-weight: 600;
-  
+}
+/* Flower & Plants Lover style */
+.love-section {
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-top: 200px;
+
+}
+.flowers-store{
+  align-items: center;
+  gap: 60px;
+}
+.flowers-store-imge{
+  width: 100%;
+}
+.flower-store-title{
+  color: #1E1E1E;
+  font-size: 3.10rem;
+font-weight: bold;
+}
+.description-list{
+  color: #8987A1;
+  font-size: 1.24rem; ;
+}
+.badge{
+    width: 286px;
+    position: absolute;
+    margin-top: -730px;
+    margin-left: 350px;
+}
+.trusted-badge{
+  filter: drop-shadow(-4px 10px 4px  rgba(0, 0, 0, 0.5));
 }
