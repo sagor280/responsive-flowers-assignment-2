@@ -18,6 +18,9 @@
 .text-color{
   color: #E95A08;
 }
+.text-center{
+  text-align: center;
+}
 
 
 /* header-style */
@@ -48,7 +51,7 @@ header{
 
 /* banner-part */
 .banner{
-  margin-top: 180px;
+  margin-top: 150px;
 }
 .banner-lift{
   max-width: 570;
@@ -60,4 +63,51 @@ header{
 .banner-description{
   color: #8987A1;
   font-size: 1.4rem;
+}
+
+/* Our plants style */
+.plants-section{
+  max-width: 1140px;
+    margin: 0 auto;
+  
+}
+
+.plants-title{
+  font-size: 3.10rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top:120px ;
+}
+.plants-description{
+  color: #8987A1;
+  font-size: 1.24rem;
+}
+.our-products{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-top: 49px;
+}
+.card{
+  max-width: 270px;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+.products-title{
+  color: #1E1E1E;
+  font-size: 1.24rem;
+  font-weight: 500;
+  text-align: center;
+}
+.products-price{
+   color: #1E1E1E;
+  font-size: 1.24rem;
+  font-weight: 700;
+  text-align: center;
+}
+.btn-primary{
+  background-color: #e95a08;
+  padding: 12px 87px;
+  color: white;
+  font-weight: 600;
+  
 }
