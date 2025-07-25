@@ -49,6 +49,7 @@ header{
    font-weight: bold;
     color: #252432;
     font-size: 1rem;
+    text-decoration: none;
 }
 
 /* banner-part */
@@ -56,7 +57,7 @@ header{
   margin-top: 150px;
 }
 .banner-lift{
-  max-width: 570;
+  max-width: 570px;
 }
 .banner-title{
   font-size: 4rem;
@@ -94,6 +95,7 @@ header{
   margin-bottom: 30px;
   gap: 20px;
 }
+
 .products-title{
   color: #1E1E1E;
   font-size: 1.24rem;
@@ -276,5 +278,104 @@ header{
 }
 .btn-subscribe:hover{
   background-color: #1E1E1E;
+}
+/* footer-section */
+.footer{
+  max-width: 1120px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.footer-title{
+  font-size: 1.24rem;
+  color: #8987A1;
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+ 
+}
+.footer-links li{
+    list-style: none;
+    margin-bottom: 26px;
+}
+.footer-links a{
+   color: #6B7280;
+    text-align: justify;
+    text-decoration: none;
+}
+.logo{
+  margin-left: 20px;
+}
+.logo img{
+  margin-right: 20px;
+}
+
+
+
+
+/* responsive-code */
+@media screen and (max-width:576px) {
+  .nav-link,.home{
+    display: none;
+  }
+
+
+  .banner{
+    flex-direction: column-reverse;
+    
+  }
+  .banner-right img{
+    width: 100%;
+  }
+  *{
+        overflow-x: hidden;
+    }
+  .our-products{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  .card img{
+    width: 100%;
+  }
+  .flowers-store{
+    flex-direction: column;
+    
+  }
+  .flowers-store li{
+    margin-right: 10px;
+  }
+
+.badge{
+display: none;
+ }
+ .latest-container{
+  flex-direction: column;
+ }
+ .zabo-plant{
+  width: 367px;
+  height: 200px;
+  text-align: center;
+ }
+  .Subscribe-section{
+  width: 100%;
+ }
+ .email{
+  margin-top: 50px;
+  width: 200px;
+  height: 30px;
+ } 
+ .btn-subscribe{
+  padding: 10px 27px;
+ } 
+ .footer{
+        grid-template-columns: repeat(1 ,1fr);
+    }
+    .footer-links{
+        grid-template-columns: repeat(1, 1fr);
+    } 
+
 }
 
