@@ -304,6 +304,7 @@ header{
    color: #6B7280;
     text-align: justify;
     text-decoration: none;
+    transition: 0.3s;
 }
 .footer-links a:hover{
   color: #E95A08;
